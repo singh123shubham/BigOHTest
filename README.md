@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+In This repository , I have provided a solution to the problem of BigONotation 
+Question 1:
+Objective: Create a web application using React with React Hook Form to do the following:
+1. Two-Step Form: Your app should have two pages, each with its own form.
+2. Form Validation: Each form should check for errors before submission.
+3. First Step User Info: The first form should gather user information like first name, last name, parent
+names, phone number, email, and address.
+4. Error Display: If any input is not valid when clicking &quot;Next,&quot; the transition to the next step should be
+prevented. Error messages should appear below the relevant fields if any input is incorrect.
+5. Navigation: Users can move to the second step using a &quot;Next Step&quot; button or a stepper component.
+When they reach the second step, the data they&#39;ve entered in both steps should be saved.
+6. Second Step Family Info: The second step should let users add family members. Initially, one form
+is shown, but users can add more with an &quot;Add More Family Member&quot; button. Each family member
+form should be collapsible, allowing users to fill them out individually.
+7. Removing Family Members: Users can remove family member forms, but at least one form must
+always be present.
+8. Result : If every step is valid, the information that has been filled out should be displayed on the
+screen. After that, a success message should be shown.
+9. Code Reusability: Make sure to use React Hook Form effectively to keep your code reusable and
+efficient.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+implementation  details:
+I have created two components - UserForm and FamilyMemberForm . Both are functional components which make use of useForm hook from react-hook-form
+I have created a functional component called "UserForm" which handles the first page of the form (user info). It uses React hooks -
+I have created a functional component called App which contains all the necessary logic for this task. It uses the useForm hook from react-hook-
+I have created two components - UserForm and FamilyMemberForm . Both are functional components which utilize the useForm hook from react-hook-
+I have created two components - UserForm and FamilyMemberForm . Both are functional components which utilize useFieldArray from react hook form library to
+I have created two components - "UserInfo" and "FamilyMember". Both are functional components which make use of React Hook Form library. They
+I have created two components - UserForm and FamilyMemberForm . Both these components are functional components
+I have created a functional component called App which wraps around all other components. It uses the useForm hook from react-hook-form library
+I have created two components - UserForm and FamilyMemberForm . Both these components are functional components
+I have created two components - UserForm and FamilyMemberForm . Both are functional components which utilize React Hook Form library to handle form validation.
