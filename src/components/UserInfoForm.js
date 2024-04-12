@@ -1,12 +1,8 @@
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
-import { v4 as uuidv4 } from 'uuid'; // Importing uuidv4 function from the uuid package
-import FamilyInfoFrom from './FamilyInfoFrom';
-import FamilyForm from './UserFamilyDetails';
 
 const UserInfoForm = () => {
   const { register, handleSubmit, formState: { errors } } = useForm();
-  const [userformData, setUserFormData] = useState(null);
 
   const  onSubmit = (data) => {
     localStorage.setItem("userInfo" ,  JSON.stringify(data));
