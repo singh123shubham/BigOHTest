@@ -20,13 +20,19 @@ screen. After that, a success message should be shown.
 efficient.
 
 implementation  details:
-I have created two components - UserForm and FamilyMemberForm . Both are functional components which make use of useForm hook from react-hook-form
-I have created a functional component called "UserForm" which handles the first page of the form (user info). It uses React hooks -
-I have created a functional component called App which contains all the necessary logic for this task. It uses the useForm hook from react-hook-
-I have created two components - UserForm and FamilyMemberForm . Both are functional components which utilize the useForm hook from react-hook-
-I have created two components - UserForm and FamilyMemberForm . Both are functional components which utilize useFieldArray from react hook form library to
-I have created two components - "UserInfo" and "FamilyMember". Both are functional components which make use of React Hook Form library. They
-I have created two components - UserForm and FamilyMemberForm . Both these components are functional components
-I have created a functional component called App which wraps around all other components. It uses the useForm hook from react-hook-form library
-I have created two components - UserForm and FamilyMemberForm . Both these components are functional components
-I have created two components - UserForm and FamilyMemberForm . Both are functional components which utilize React Hook Form library to handle form validation.
+createa  new react project by running npx create-react
+app myprojectname . cd into the directory . install all dependencies
+ - react-hook-form
+ - react-router-dom
+ - tailwind css
+
+ -- componetent
+  - userInfoForm
+  - familyInfoForm
+  - NavBar (user , userfamily)
+  - all data  will be stored in print console
+
+  --Routes
+   - user Routes
+   - family routes
+   - userdetails routes
